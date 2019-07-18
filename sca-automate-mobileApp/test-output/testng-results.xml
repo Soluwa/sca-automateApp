@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27162" started-at="2019-07-18T05:34:14Z" finished-at="2019-07-18T05:34:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.CalculatorRunnerTest@73ad2d6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="27162" started-at="2019-07-18T05:34:14Z" finished-at="2019-07-18T05:34:41Z">
+      <class name="testRunner.CalculatorRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.CalculatorRunnerTest@73ad2d6]" test-instance-name="" name="setUpClass" is-config="true" duration-ms="208" started-at="2019-07-18T06:34:14Z" finished-at="2019-07-18T06:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method name="runScenario" test-instance-name="" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.CalculatorRunnerTest@73ad2d6]" status="PASS" duration-ms="26720" finished-at="2019-07-18T06:34:41Z" started-at="2019-07-18T06:34:14Z" data-provider="scenarios" description="Runs Cucumber Scenarios">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["run test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Addition"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.CalculatorRunnerTest@73ad2d6]" test-instance-name="" name="tearDownClass" is-config="true" duration-ms="125" started-at="2019-07-18T06:34:41Z" finished-at="2019-07-18T06:34:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.CalculatorRunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

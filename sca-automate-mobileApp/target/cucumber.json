@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-18T05:36:21.535Z",
+        "line": 7,
+        "name": "run test",
+        "description": "",
+        "id": "verify-addition;run-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21626329500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I launch the calculator app on my phone",
+            "match": {
+              "location": "calculatorSteps.i_launch_the_calculator_app_on_my_phone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3799938800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I do addition of two numbers",
+            "match": {
+              "location": "calculatorSteps.i_do_addition_of_two_numbers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should get the right result",
+            "match": {
+              "location": "calculatorSteps.i_should_get_the_right_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify Addition",
+    "description": "\tAs a user\n\tI want to launch my calculator app\n\tSo that I can do addition of two numbers",
+    "id": "verify-addition",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/calculatorTest.feature",
+    "tags": []
+  }
+]
